@@ -661,7 +661,7 @@ define(["lib-build/css!lib-app/bootstrap/css/bootstrap.min",
 				forceMobile = _urlParams.forceMobile !== undefined || app.indexCfg.forceMobile;
 				//forceEmbed = _urlParams.forceEmbed !== undefined || app.indexCfg.forceEmbed;
 			
-			var isMobileView = widthViewport <= 768 || forceMobile,
+			var isMobileView = widthViewport <= 725 || forceMobile,
 				isOnMobileMapView = $(".centerLink").length ? $(".centerLink").hasClass("current") : true;
 			
 			if ( forceDesktop )

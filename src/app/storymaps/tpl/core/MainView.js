@@ -231,7 +231,7 @@ define(["lib-build/css!./MainView",
 			{
 				console.log("tpl.core.MainView - loadWebMap - webmapId:", webmapIdOrJSON);
 				
-				//var popup = $("body").width() > 768 ? null : new PopupMobile(null, $("<div></div>")[0]);
+				//var popup = $("body").width() > 725 ? null : new PopupMobile(null, $("<div></div>")[0]);
 				var popup = null;
 				
 				return arcgisUtils.createMap(webmapIdOrJSON, container, {
